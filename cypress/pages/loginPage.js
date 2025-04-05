@@ -5,7 +5,7 @@ class LoginPage {
   }
 
   get passwordField() {
-    return cy.get('input[name="assword"]');
+    return cy.get('input[name="password"]');
   }
 
   get loginButton() {
