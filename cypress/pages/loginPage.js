@@ -5,11 +5,15 @@ class LoginPage {
   }
 
   get passwordField() {
-    return cy.get('input[name="password"]');
+    return cy.get('input[name="assword"]');
   }
 
   get loginButton() {
     return cy.get('input[type="submit"]');
+  }
+
+  get firstName(){
+    return cy.get('name="firstname"')
   }
 
   // Define actions
